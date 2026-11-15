@@ -40,6 +40,13 @@ renders one module of `eden.options.robots`.
       show_root_heading: false
       show_if_no_docstring: true
 
+### Wisco humanoid V2
+
+::: eden.options.robots.wisco_humanoid
+    options:
+      show_root_heading: false
+      show_if_no_docstring: true
+
 ## Quadrupeds
 
 ### Unitree Go1

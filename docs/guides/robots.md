@@ -86,7 +86,7 @@ action term's `scale` (for example `ImplicitPDController.configure(scale=GO2_ACT
 
 ## Robot catalog
 
-The catalog below is `ROBOT_REGISTRY` (47 unit robots). "DOFs" is the length of the preset's `dofs_name`;
+The catalog below is `ROBOT_REGISTRY` (48 unit robots). "DOFs" is the length of the preset's `dofs_name`;
 "Base" is its `is_fixed_base` default. Left / right hand pairs share a row.
 
 ### Arms and mobile manipulators
@@ -132,6 +132,7 @@ arm (the composite rigs do). `Robotiq2f85` carries the closed-loop tuning descri
 | `OliNoHands` | `oli_no_hands` | 31 | free | `humanoids/limx_oli/HU_D04_01_no_hand.urdf` |
 | `SmplHumanoid` | `smpl_humanoid` | 69 | free | `humanoids/smpl_humanoid/smpl_humanoid.xml` |
 | `PhcSmplHumanoid` | `phc_smpl_humanoid` | 69 | free | `humanoids/smpl_humanoid/smpl_humanoid_phc.xml` |
+| `WiscoHumanoidV2` | `wisco_humanoid_v2` | 31 | free | `humanoids/wisco_humanoid_v2/robot.urdf` |
 
 The `NoHands` variants exist to carry a real end-effector: they expose wrist flanges, so the arms carry the
 welded hand's mass and not a moulded one as well.

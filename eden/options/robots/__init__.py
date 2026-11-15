@@ -44,6 +44,7 @@ from eden.options.robots.wuji_hand1 import (
     WujiHand1Simplified_L,
     WujiHand1Simplified_R,
 )
+from eden.options.robots.wisco_humanoid import WiscoHumanoidV2
 from eden.options.robots.wuji_hand2beta2 import (
     WujiHand2Beta2_L,
     WujiHand2Beta2_R,
@@ -141,6 +142,7 @@ __all__ = [
     "WujiHand2Beta2_R",
     "WujiHand2Beta2WithMount_L",
     "WujiHand2Beta2WithMount_R",
+    "WiscoHumanoidV2",
     "Yam",
     "YAM_ACTION_SCALE",
     "has_frame_alignment",
